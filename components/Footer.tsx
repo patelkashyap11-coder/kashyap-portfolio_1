@@ -11,9 +11,7 @@
         something memorable.
       </h2>
     </div>
-
     <div className="grid md:grid-cols-3 gap-12 md:gap-20">
-
       <div>
         <p className="text-xs uppercase tracking-[0.2em] text-black/40 mb-4">
           Contact
@@ -26,7 +24,6 @@
           >
             patelkashyap11@gmail.com
           </a>
-
           <a
             href="tel:+919712727007"
             className="block text-black hover:opacity-60 transition-opacity"
@@ -35,12 +32,10 @@
           </a>
         </div>
       </div>
-
       <div>
         <p className="text-xs uppercase tracking-[0.2em] text-black/40 mb-4">
           Social
         </p>
-
         <div className="space-y-2">
           <a
             href="https://instagram.com/ikashyap__"
@@ -50,7 +45,6 @@
           >
             Instagram ↗
           </a>
-
           <a
             href="https://wa.me/919712727007"
             target="_blank"
@@ -61,32 +55,25 @@
           </a>
         </div>
       </div>
-
       <div>
         <p className="text-xs uppercase tracking-[0.2em] text-black/40 mb-4">
           Location
         </p>
-
         <p className="text-black">
           Ahmedabad, India
           <br />
           Available Worldwide
         </p>
       </div>
-
     </div>
-
     <div className="mt-20 pt-8 border-t border-black/10 flex flex-col md:flex-row justify-between gap-4">
 
       <p className="text-sm text-black/40">
         © {new Date().getFullYear()} Kashyap Patel
       </p>
-
       <p className="text-sm text-black/40">
         Photographer & Filmmaker
       </p>
-
     </div>
-
   </div>
 </footer>
