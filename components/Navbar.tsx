@@ -40,11 +40,12 @@ export function Navbar() {
       <nav className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-10 py-5 transition-all duration-500 ${
         scrolled ? (isDark ? 'bg-black/80 backdrop-blur-md' : 'bg-[#F2F2EF]/90 backdrop-blur-md') : ''
       }`}>
-        <Link
-  href="/"
-  className={`${textColor} z-50 relative font-black text-3xl md:text-5xl tracking-[-0.03em] uppercase`}
->
-  KASHYAP PATEL
+        <Link href="/" className="z-50 relative">
+  <img
+    src="/logo.png"
+    alt="Kashyap Patel"
+    className="h-12 w-auto"
+  />
 </Link>
 
         {/* Desktop nav */}
